@@ -1,0 +1,27 @@
+.mainLayout {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.mainContent {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
+.analyzerContainer {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
