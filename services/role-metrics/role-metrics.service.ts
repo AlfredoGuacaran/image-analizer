@@ -37,3 +37,5 @@ export class RoleMetricsServices {
     return response;
   }
 }
+
+export const roleMetricsServices = new RoleMetricsServices();

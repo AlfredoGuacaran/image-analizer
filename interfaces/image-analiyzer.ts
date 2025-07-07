@@ -14,9 +14,12 @@ export interface BoundingBox {
   height: number;
 }
 
-export interface ImageAnnotation {
-  id: string;
-  imageId: string;
-  categoryId: string;
+export interface Annotation {
+  categoryId: number;
   boundingBoxes: BoundingBox[];
+}
+
+export interface ImageAnnotation {
+  imageId: number;
+  annotations: Annotation[];
 }

@@ -1,34 +1,16 @@
 'use client';
 
 import React from 'react';
-import { ImageAnalyzer } from './_components';
-import type { Option, QueueItem } from './_components';
+import { StoreProvider } from '@/redux/StoreProvider';
+import { QueryClientProvider } from '@/lib/query/QueryClientProvider';
+import ImageAnalyzer from './_components/ImageAnalyzer';
 
-const ImageAnalyzerPage: React.FC = () => {
-  const handleOptionSelect = (option: Option) => {
-    // Handle option selection
-  };
-
-  const handleDiscard = () => {
-    // Handle discard action
-  };
-
-  const handleConfirm = () => {
-    // Handle confirm action
-  };
-
-  const handleQueueItemClick = (item: QueueItem) => {
-    // Handle queue item click
-  };
-
+export default function ImageAnalyzerPage() {
   return (
-    <ImageAnalyzer
-      onOptionSelect={handleOptionSelect}
-      onDiscard={handleDiscard}
-      onConfirm={handleConfirm}
-      onQueueItemClick={handleQueueItemClick}
-    />
+    <StoreProvider>
+      <QueryClientProvider>
+        <ImageAnalyzer />
+      </QueryClientProvider>
+    </StoreProvider>
   );
-};
-
-export default ImageAnalyzerPage;
+}

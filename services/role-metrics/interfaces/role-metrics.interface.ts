@@ -4,9 +4,9 @@ import {
   UnanalyzedImage,
 } from '@/interfaces/image-analiyzer';
 
-export type GetUnanalyzedImagesResponse = UnanalyzedImage;
+export type GetUnanalyzedImagesResponse = UnanalyzedImage[];
 
-export type GetImageCategoriesResponse = ImageCategory;
+export type GetImageCategoriesResponse = ImageCategory[];
 
 export type PostImageAnnotationsBody = ImageAnnotation;
 

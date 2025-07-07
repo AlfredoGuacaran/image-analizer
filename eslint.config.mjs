@@ -30,8 +30,8 @@ const eslintConfig = [
       // React specific rules
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
-      'react/prop-types': 'off', // We're using TypeScript
-      'react/react-in-jsx-scope': 'off', // Not needed in Next.js
+      'react/prop-types': 'off',
+      'react/react-in-jsx-scope': 'off',
 
       // TypeScript specific rules
       '@typescript-eslint/no-unused-vars': 'warn',
