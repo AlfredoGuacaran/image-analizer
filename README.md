@@ -29,36 +29,21 @@ A React-based interactive image annotation tool that allows users to draw boundi
 Before running this project, make sure you have the following installed:
 
 - Node.js (version 18 or higher)
-- npm, yarn, pnpm, or bun
+- npm
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
+git clone https://github.com/AlfredoGuacaran/image-analizer
 cd image-analyzer
-```
+
 
 ### 2. Install dependencies
-
-```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
 
 ### 3. Run the development server
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+
 
 ### 4. Open your browser
 
